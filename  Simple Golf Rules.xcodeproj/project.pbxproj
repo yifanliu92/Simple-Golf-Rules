@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD26977B13CAC1F4007467CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD26977A13CAC1F4007467CD /* UIKit.framework */; };
+		DD26977D13CAC1F4007467CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD26977C13CAC1F4007467CD /* Foundation.framework */; };
+		DD26977F13CAC1F4007467CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD26977E13CAC1F4007467CD /* CoreGraphics.framework */; };
+		DD26978513CAC1F4007467CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD26978313CAC1F4007467CD /* InfoPlist.strings */; };
+		DD26978813CAC1F4007467CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26978713CAC1F4007467CD /* main.m */; };
+		DD26978B13CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26978A13CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.m */; };
+		DD26978E13CAC1F4007467CD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD26978C13CAC1F4007467CD /* MainWindow.xib */; };
+		DD26979113CAC1F4007467CD /* _Simple_Golf_RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26979013CAC1F4007467CD /* _Simple_Golf_RulesViewController.m */; };
+		DD26979413CAC1F4007467CD /* _Simple_Golf_RulesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD26979213CAC1F4007467CD /* _Simple_Golf_RulesViewController.xib */; };
+		DD26979E13CAC2B2007467CD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD26979B13CAC2B2007467CD /* 1.png */; };
+		DD26979F13CAC2B2007467CD /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DD26979C13CAC2B2007467CD /* 2.PNG */; };
+		DD2697A013CAC2B2007467CD /* 3..png in Resources */ = {isa = PBXBuildFile; fileRef = DD26979D13CAC2B2007467CD /* 3..png */; };
+		DD2697AA13CAC5FA007467CD /* waterhazardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2697A913CAC5FA007467CD /* waterhazardView.xib */; };
+		DD2697AC13CAC65B007467CD /* lateralwaterhazardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2697AB13CAC65B007467CD /* lateralwaterhazardView.xib */; };
+		DDD385C713CAD652004D06B8 /* uplayableballView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD385C613CAD652004D06B8 /* uplayableballView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD26977613CAC1F4007467CD /*  Simple Golf Rules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " Simple Golf Rules.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD26977A13CAC1F4007467CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD26977C13CAC1F4007467CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD26977E13CAC1F4007467CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD26978213CAC1F4007467CD /*  Simple Golf Rules-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = " Simple Golf Rules-Info.plist"; sourceTree = "<group>"; };
+		DD26978413CAC1F4007467CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD26978613CAC1F4007467CD /*  Simple Golf Rules-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " Simple Golf Rules-Prefix.pch"; sourceTree = "<group>"; };
+		DD26978713CAC1F4007467CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD26978913CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _Simple_Golf_RulesAppDelegate.h; sourceTree = "<group>"; };
+		DD26978A13CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Simple_Golf_RulesAppDelegate.m; sourceTree = "<group>"; };
+		DD26978D13CAC1F4007467CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD26978F13CAC1F4007467CD /* _Simple_Golf_RulesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _Simple_Golf_RulesViewController.h; sourceTree = "<group>"; };
+		DD26979013CAC1F4007467CD /* _Simple_Golf_RulesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Simple_Golf_RulesViewController.m; sourceTree = "<group>"; };
+		DD26979313CAC1F4007467CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/_Simple_Golf_RulesViewController.xib; sourceTree = "<group>"; };
+		DD26979B13CAC2B2007467CD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DD26979C13CAC2B2007467CD /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		DD26979D13CAC2B2007467CD /* 3..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3..png; sourceTree = "<group>"; };
+		DD2697A913CAC5FA007467CD /* waterhazardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = waterhazardView.xib; sourceTree = "<group>"; };
+		DD2697AB13CAC65B007467CD /* lateralwaterhazardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lateralwaterhazardView.xib; sourceTree = "<group>"; };
+		DDD385C613CAD652004D06B8 /* uplayableballView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = uplayableballView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD26977313CAC1F4007467CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD26977B13CAC1F4007467CD /* UIKit.framework in Frameworks */,
+				DD26977D13CAC1F4007467CD /* Foundation.framework in Frameworks */,
+				DD26977F13CAC1F4007467CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD26976B13CAC1F4007467CD = {
+			isa = PBXGroup;
+			children = (
+				DD26978013CAC1F4007467CD /*  Simple Golf Rules */,
+				DD26977913CAC1F4007467CD /* Frameworks */,
+				DD26977713CAC1F4007467CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD26977713CAC1F4007467CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD26977613CAC1F4007467CD /*  Simple Golf Rules.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD26977913CAC1F4007467CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD26977A13CAC1F4007467CD /* UIKit.framework */,
+				DD26977C13CAC1F4007467CD /* Foundation.framework */,
+				DD26977E13CAC1F4007467CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD26978013CAC1F4007467CD /*  Simple Golf Rules */ = {
+			isa = PBXGroup;
+			children = (
+				DD26978913CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.h */,
+				DD26978A13CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.m */,
+				DD26978C13CAC1F4007467CD /* MainWindow.xib */,
+				DD26978F13CAC1F4007467CD /* _Simple_Golf_RulesViewController.h */,
+				DD26979013CAC1F4007467CD /* _Simple_Golf_RulesViewController.m */,
+				DD26979213CAC1F4007467CD /* _Simple_Golf_RulesViewController.xib */,
+				DD2697A913CAC5FA007467CD /* waterhazardView.xib */,
+				DD2697AB13CAC65B007467CD /* lateralwaterhazardView.xib */,
+				DDD385C613CAD652004D06B8 /* uplayableballView.xib */,
+				DD26978113CAC1F4007467CD /* Supporting Files */,
+			);
+			path = " Simple Golf Rules";
+			sourceTree = "<group>";
+		};
+		DD26978113CAC1F4007467CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD26978213CAC1F4007467CD /*  Simple Golf Rules-Info.plist */,
+				DD26978313CAC1F4007467CD /* InfoPlist.strings */,
+				DD26978613CAC1F4007467CD /*  Simple Golf Rules-Prefix.pch */,
+				DD26978713CAC1F4007467CD /* main.m */,
+				DD26979A13CAC29B007467CD /* Pictures */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD26979A13CAC29B007467CD /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				DD26979B13CAC2B2007467CD /* 1.png */,
+				DD26979C13CAC2B2007467CD /* 2.PNG */,
+				DD26979D13CAC2B2007467CD /* 3..png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD26977513CAC1F4007467CD /*  Simple Golf Rules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD26979713CAC1F4007467CD /* Build configuration list for PBXNativeTarget " Simple Golf Rules" */;
+			buildPhases = (
+				DD26977213CAC1F4007467CD /* Sources */,
+				DD26977313CAC1F4007467CD /* Frameworks */,
+				DD26977413CAC1F4007467CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = " Simple Golf Rules";
+			productName = " Simple Golf Rules";
+			productReference = DD26977613CAC1F4007467CD /*  Simple Golf Rules.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD26976D13CAC1F4007467CD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DD26977013CAC1F4007467CD /* Build configuration list for PBXProject " Simple Golf Rules" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD26976B13CAC1F4007467CD;
+			productRefGroup = DD26977713CAC1F4007467CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD26977513CAC1F4007467CD /*  Simple Golf Rules */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD26977413CAC1F4007467CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD26978513CAC1F4007467CD /* InfoPlist.strings in Resources */,
+				DD26978E13CAC1F4007467CD /* MainWindow.xib in Resources */,
+				DD26979413CAC1F4007467CD /* _Simple_Golf_RulesViewController.xib in Resources */,
+				DD26979E13CAC2B2007467CD /* 1.png in Resources */,
+				DD26979F13CAC2B2007467CD /* 2.PNG in Resources */,
+				DD2697A013CAC2B2007467CD /* 3..png in Resources */,
+				DD2697AA13CAC5FA007467CD /* waterhazardView.xib in Resources */,
+				DD2697AC13CAC65B007467CD /* lateralwaterhazardView.xib in Resources */,
+				DDD385C713CAD652004D06B8 /* uplayableballView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD26977213CAC1F4007467CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD26978813CAC1F4007467CD /* main.m in Sources */,
+				DD26978B13CAC1F4007467CD /* _Simple_Golf_RulesAppDelegate.m in Sources */,
+				DD26979113CAC1F4007467CD /* _Simple_Golf_RulesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD26978313CAC1F4007467CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD26978413CAC1F4007467CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD26978C13CAC1F4007467CD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD26978D13CAC1F4007467CD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD26979213CAC1F4007467CD /* _Simple_Golf_RulesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD26979313CAC1F4007467CD /* en */,
+			);
+			name = _Simple_Golf_RulesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD26979513CAC1F4007467CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD26979613CAC1F4007467CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DD26979813CAC1F4007467CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = " Simple Golf Rules/ Simple Golf Rules-Prefix.pch";
+				INFOPLIST_FILE = " Simple Golf Rules/ Simple Golf Rules-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD26979913CAC1F4007467CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = " Simple Golf Rules/ Simple Golf Rules-Prefix.pch";
+				INFOPLIST_FILE = " Simple Golf Rules/ Simple Golf Rules-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD26977013CAC1F4007467CD /* Build configuration list for PBXProject " Simple Golf Rules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD26979513CAC1F4007467CD /* Debug */,
+				DD26979613CAC1F4007467CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD26979713CAC1F4007467CD /* Build configuration list for PBXNativeTarget " Simple Golf Rules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD26979813CAC1F4007467CD /* Debug */,
+				DD26979913CAC1F4007467CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD26976D13CAC1F4007467CD /* Project object */;
+}
